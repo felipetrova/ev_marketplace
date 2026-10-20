@@ -1,0 +1,61 @@
+# ===== Sistema operacional =====
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ===== Editores / IDEs =====
+.idea/
+.vscode/
+*.iml
+*.swp
+*~
+
+# ===== Arquivos compactados antigos =====
+*.zip
+
+# ===== Variáveis de ambiente (nunca versionar segredos) =====
+.env
+.env.*
+!.env.example
+
+# ===== Backend (Node.js / NestJS / Prisma) =====
+node_modules/
+dist/
+coverage/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+*.tsbuildinfo
+
+# ===== Frontend (Flutter / Dart) =====
+.dart_tool/
+.packages
+.pub/
+.pub-cache/
+build/
+.flutter-plugins
+.flutter-plugins-dependencies
+*.g.dart.tmp
+**/doc/api/
+
+# Android
+**/android/.gradle/
+**/android/local.properties
+**/android/**/GeneratedPluginRegistrant.java
+**/android/key.properties
+*.jks
+*.keystore
+
+# iOS / macOS
+**/ios/Pods/
+**/ios/.symlinks/
+**/ios/Flutter/Generated.xcconfig
+**/ios/Flutter/flutter_export_environment.sh
+**/macos/Pods/
+**/macos/Flutter/ephemeral/
+xcuserdata/
+*.xcuserstate
+
+# Linux / Windows
+**/linux/flutter/ephemeral/
+**/windows/flutter/ephemeral/

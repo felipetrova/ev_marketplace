@@ -1,0 +1,1 @@
+{"name":"ev-marketplace-v1","private":true,"workspaces":["backend"],"scripts":{"start:dev":"npm --workspace backend run start:dev","build":"npm --workspace backend run build","prisma:generate":"npm --workspace backend run prisma:generate","prisma:migrate":"npm --workspace backend run prisma:migrate"}}
